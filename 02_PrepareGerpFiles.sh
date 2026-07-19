@@ -9,7 +9,11 @@
 #SBATCH --cpus-per-task=5
 #SBATCH --mem-per-cpu=10G
 
+## AUTHOR : Maël Le Gouellec
+## USE : This script uses the chain file from step 01 to lift over the target genome coordinates on the GERP genome, get the associated GERP scores and connect them to the ancestral alleles from the target species 
+
 # Modules and functions
+
 module load gcc/9.2.0
 module load samtools/1.10
 bigWigToBedGraph=<PATH_bigWigToBedGraph_FUNCTION> # Dowload it here : ['https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/']
