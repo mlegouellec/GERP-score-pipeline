@@ -13,7 +13,7 @@
 # Modules and functions
 module load gcc/9.2.0
 module load samtools/1.10
-bigWigToBedGraph=<PATH_bigWigToBedGraph_FUNCTION> # Dowload it here : ['https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/']
+bigWigToBedGraph=<PATH_bigWigToBedGraph_FUNCTION> # Dowload it here : ['https://ftp.ensembl.org/pub/current/compara/conservation_scores/92_mammals.gerp_conservation_score/']
 TRANSANNO=<PATH_TRANSANNO_FUNCTION> # Dowload it here : ['https://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/']
 
 # Variables
