@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=def
+#SBATCH --partition long
 #SBATCH --nodes=1
 #SBATCH -V
 #SBATCH -o Chain2bed.o
