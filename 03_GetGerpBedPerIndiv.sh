@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH -V
 #SBATCH -o BedPerScaff_%a.o
-#SBATCH -e BedPerScaff_%a.o
+#SBATCH -e BedPerScaff_%a.e
 #SBATCH -J BedPerScaff
 #SBATCH --time=50:00:00
 #SBATCH --cpus-per-task=1
