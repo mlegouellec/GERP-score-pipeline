@@ -14,13 +14,13 @@
 ## AUTHOR : Maël Le Gouellec
 ## USE : This script creates on .bed per individual and per Scaffold/Chromosome with the associated coordinates, GERP score and genotype
 
-# Modules and functions
-#Modules
+# Modules
+
 module load bedtools/2.31.1
 module load bcftools/1.16
+
 #Variables
 
-WD='/shared/projects/ants_supergenes/GERP/GerpPerScaff_Bed'
 IDREF='Maritimus'
 IDQUERY='ArcosArcos'
 FinalBed='/shared/projects/ants_supergenes/GERP/Chain/ArcosArcoscoor_polar_LiftedOverMaritimus_GerpScor_final.bed'
